@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy
 from numpy.random import Generator, MT19937
+<<<<<<< HEAD
 
 
 rg = Generator(MT19937(12345))
@@ -70,3 +71,14 @@ for n in nList:
     plt.figure(1)
     plt.plot(XList, BList, "ro", markersize=0.5)
     plt.show()
+=======
+from numpy import loadtxt
+
+dataB = loadtxt()
+rg = Generator(MT19937(12345))
+nList = numpy.linspace(1000, 100000, 100, True, dtype=int)
+
+plt.figure(1)
+plt.plot(XList, BList, "ro", markersize=0.5)
+plt.show()
+>>>>>>> 7ff9587 (Add plot data generator in cpp. Compile time: 70s)

@@ -3,4 +3,8 @@
   <component name="CMakeWorkspace">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
+>>>>>>> 7ff9587 (Add plot data generator in cpp. Compile time: 70s)
 </project>
